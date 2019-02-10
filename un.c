@@ -15,7 +15,7 @@ int main()
 		{
 			if(a[i]==a[j])
 			{
-				printf("%d",a[i]);
+				printf("\t%d",a[i]);
 				count=count+1;
 			}
 		}
