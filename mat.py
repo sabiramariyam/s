@@ -6,7 +6,7 @@ e=[]
 f=[]
 for i in range(n):
    x=raw_input().split(" ")
-   a.append(map(int,x))
+   d.append(map(int,x))
 for i in range(n):
    for j in range(m):
       if d[i][j]==0:
