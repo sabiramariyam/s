@@ -1,27 +1,27 @@
 n,m=raw_input().split(" ")
 n=int(n)
 m=int(m)
-a=[]
-b=[]
-c=[]
+d=[]
+e=[]
+f=[]
 for i in range(n):
    x=raw_input().split(" ")
    a.append(map(int,x))
 for i in range(n):
    for j in range(m):
-      if a[i][j]==0:
-         b.append(i)
-         b.append(j)
-         c.append(b)
-         b=[]
-for l in range(len(c)):
-   i=c[l][0]
-   j=c[l][1]
+      if d[i][j]==0:
+         e.append(i)
+         e.append(j)
+         f.append(e)
+         e=[]
+for l in range(len(f)):
+   i=f[l][0]
+   j=f[l][1]
    for k in range(m):
-      a[i][k]=0
+      d[i][k]=0
    for k in range(n):
-      a[k][j]=0
+      d[k][j]=0
 for i in range(n):
    for j in range(m):
-      print a[i][j],
+      print d[i][j],
    print "\n"
